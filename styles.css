@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.config {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.stats {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cache-container, .database-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 5px;
+    cursor: pointer;
+}

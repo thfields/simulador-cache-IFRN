@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Cache</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Simulador de Memória Cache</h1>
+
+    <div class="config">
+        <label><input type="radio" name="policy" value="FIFO" checked> FIFO</label>
+        <label><input type="radio" name="policy" value="LRU"> LRU</label>
+        <label><input type="radio" name="policy" value="LFU"> LFU</label>
+        <button id="generate">Gerar Pedido</button>
+    </div>
+
+    <div class="stats">
+        <p>Cache HITs: <span id="hits">0</span></p>
+        <p>Cache MISSs: <span id="misses">0</span></p>
+    </div>
+
+    <div class="cache-container">
+        <h2>Cache</h2>
+        <ul id="cache"></ul>
+    </div>
+
+    <div class="database-container">
+        <h2>Banco de Dados</h2>
+        <ul id="database"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
