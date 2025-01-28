@@ -45,7 +45,4 @@ A interface contém:
 
 ## 📸 Prints da Interface
 
-Adicione prints da interface em funcionamento aqui. Para adicionar imagens ao README:
-```md
-![simulador de cache](/image.png)
-```
+![simulador de cache](/assets/image.png)
